@@ -1,8 +1,8 @@
 {
   "name": "github-react-portfolio-template",
-  "homepage": "https://uncrownedking.github.io/home/",
+  "homepage": "https://uncrownedking.github.io/uncrownedking/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "bootstrap": "^5.2.3",
