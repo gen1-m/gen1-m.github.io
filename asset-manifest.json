@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uncrownedking/static/css/main.deb5c223.css",
-    "main.js": "/uncrownedking/static/js/main.5db2402e.js",
+    "main.js": "/uncrownedking/static/js/main.bf613121.js",
     "static/media/hero-dark.jpg": "/uncrownedking/static/media/hero-dark.37f2556d620821979e99.jpg",
     "static/media/hero-light.jpg": "/uncrownedking/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "service-worker.js": "/uncrownedking/service-worker.js",
@@ -9,10 +9,10 @@
     "static/media/logo.svg": "/uncrownedking/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/uncrownedking/index.html",
     "main.deb5c223.css.map": "/uncrownedking/static/css/main.deb5c223.css.map",
-    "main.5db2402e.js.map": "/uncrownedking/static/js/main.5db2402e.js.map"
+    "main.bf613121.js.map": "/uncrownedking/static/js/main.bf613121.js.map"
   },
   "entrypoints": [
     "static/css/main.deb5c223.css",
-    "static/js/main.5db2402e.js"
+    "static/js/main.bf613121.js"
   ]
 }
