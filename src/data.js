@@ -6,9 +6,14 @@ import {
   FaReact,
   FaGitAlt,
   FaGithubSquare,
-  FaLink,
+  FaLink
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { 
+  SiJavascript, 
+  SiPython, 
+  SiC,
+  SiCplusplus
+ } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -68,23 +73,28 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
     skill: <FaGitAlt className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 8,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
+  },
+  {
+    id: 9,
+    skill: <SiC className="display-4" />,
+    name: "C Language",
+  },
+  {
+    id: 10,
+    skill: <SiCplusplus className="display-4" />,
+    name: "C++ Language"
   },
 ];
 
@@ -100,7 +110,15 @@ export const filteredProjects = ["react-app", "school-repo", "jacobs-hack"];
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "react-app",
+    image: Logo,
+  },
+  {
+    name: "school-repo",
+    image: Logo,
+  },
+  {
+    name: "jacobs-hack",
     image: Logo,
   },
 ];
