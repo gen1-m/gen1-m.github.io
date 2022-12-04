@@ -17,6 +17,7 @@ import {
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
+import cIcon from "./images/c-icon.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -39,7 +40,10 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "Welcome to my website. I am a new developer called Eugen Mamaj and my alias in Github is UncrownedKing1. " + 
+  "I am fascinated from the world of computers and to deepen my knowledge about them, I am currently pursuing"  +
+  " a degree in Computer Science. Below you can see my skills, look through some of my projects and if you want" +
+  " to contact me just complete the form below and I will get back to you as soon as possible.";
 
 /* Skills
  ************************************************************** 
@@ -105,20 +109,16 @@ export const resume = "https://drive.google.com/file/d/1LKIWEztBDtzEntgOrNvg4O06
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["react-app", "school-repo", "jacobs-hack"];
+export const filteredProjects = ["kingas-class-with-names", "my-website"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "react-app",
-    image: Logo,
+    name: "kingas-class-with-names",
+    image: cIcon,
   },
   {
-    name: "school-repo",
-    image: Logo,
-  },
-  {
-    name: "jacobs-hack",
+    name: "my-website",
     image: Logo,
   },
 ];

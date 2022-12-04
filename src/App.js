@@ -29,7 +29,7 @@ const themes = {
   dark: {
     name: "dark",
     color: "#FBFDFF",
-    background: "#27272A",
+    background: "#0d0d0d",
   },
 };
 
