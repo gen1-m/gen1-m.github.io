@@ -40,7 +40,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Welcome to my website. I am a new developer called Eugen Mamaj and my alias in Github is UncrownedKing1. " + 
+  "Welcome to my website. I am a new developer called Eugen Mamaj and my alias on Github is UncrownedKing1. " + 
   "I am fascinated from the world of computers and to deepen my knowledge about them, I am currently pursuing"  +
   " a degree in Computer Science. Below you can see my skills, look through some of my projects and if you want" +
   " to contact me just complete the form below and I will get back to you as soon as possible.";
