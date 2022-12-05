@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
 
   a {
     color: #45413c;
-
+    
     &:hover {
       color: #fbfdff;
     }
