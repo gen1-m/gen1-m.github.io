@@ -6,13 +6,15 @@ import {
   FaReact,
   FaGitAlt,
   FaGithubSquare,
-  FaLink
+  FaLink,
+  FaNode
 } from "react-icons/fa";
 import { 
   SiJavascript, 
   SiPython, 
   SiC,
-  SiCplusplus
+  SiCplusplus,
+  SiFirebase
  } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
@@ -52,7 +54,7 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
+    skill: <FaHtml5 className="display-4" />, 
     name: "HTML5",
   },
   {
@@ -67,18 +69,18 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    skill: <SiPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 5,
-    skill: <FaReact className="display-4" />,
-    name: "React",
+    skill: <SiC className="display-4" />,
+    name: "C Language",
   },
   {
     id: 6,
-    skill: <SiPython className="display-4" />,
-    name: "Python",
+    skill: <SiCplusplus className="display-4" />,
+    name: "C++ Language",
   },
   {
     id: 7,
@@ -92,13 +94,23 @@ export const skillData = [
   },
   {
     id: 9,
-    skill: <SiC className="display-4" />,
-    name: "C Language",
+    skill: <FaBootstrap className="display-4" />,
+    name: "BootStrap",
   },
   {
     id: 10,
-    skill: <SiCplusplus className="display-4" />,
-    name: "C++ Language"
+    skill: <FaReact className="display-4" />,
+    name: "React",
+  },
+  {
+    id: 11,
+    skill: <SiFirebase className="display-4" />,
+    name: "Google Firebase",
+  },
+  {
+    id: 12,
+    skill: <FaNode className="display-4" />,
+    name: "Node.js",
   },
 ];
 
