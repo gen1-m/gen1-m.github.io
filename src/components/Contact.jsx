@@ -22,6 +22,7 @@ export default function Contact() {
           </Title>
         </Container>
         <Container>
+<<<<<<< Updated upstream
           <h3>The form is currently not available, so please don't submit on it :)</h3>
 =======
           <br></br>
