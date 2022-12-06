@@ -22,15 +22,11 @@ export default function Contact() {
           </Title>
         </Container>
         <Container>
-<<<<<<< Updated upstream
-          <h3>The form is currently not available, so please don't submit on it :)</h3>
-=======
           <br></br>
           <h5><center>The form currently not working!!!</center></h5>
           <h5><center>Please for now, contact me at my email: "genimamaj2004@gmail.com".</center></h5> 
           <br></br>
           <br></br>
->>>>>>> Stashed changes
           <ContactForm />
         </Container>
       </StyledSection>
