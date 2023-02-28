@@ -23,9 +23,6 @@ export default function Contact() {
         </Container>
         <Container>
           <br></br>
-          <h5><center>The form currently not working!!!</center></h5>
-          <h5><center>Please for now, contact me at my email: "genimamaj2004@gmail.com".</center></h5> 
-          <br></br>
           <br></br>
           <ContactForm />
         </Container>
