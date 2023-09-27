@@ -32,7 +32,7 @@ export default function AboutMe() {
             </Title>
           </Container>
           <Row className="align-items-center mt-5">
-            <Col className="d-flex flex-column text-center">
+            <Col className="d-flex flex-column justify-content-center font-monospace">
               <Container>
                 <p>{bio}</p>
                 {moreInfo && <p>{moreInfo}</p>}
@@ -44,7 +44,7 @@ export default function AboutMe() {
                 alt="GitHub Avatar"
                 loading="lazy"
                 className="mx-auto rounded-circle"
-                style={{ width: "15rem", height: "15rem" }}
+                style={{ width: "25rem", height: "25rem" }}
               />
             </Col>
           </Row>

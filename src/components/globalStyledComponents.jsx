@@ -3,7 +3,7 @@ import { useAppContext } from "../appContext";
 import styled, { keyframes } from "styled-components";
 import { Link } from "react-scroll/modules";
 // Icons
-import { GiSunflower, GiMoon } from "react-icons/gi";
+import { GiStripedSun, GiMoon } from "react-icons/gi";
 import { FaChevronCircleUp } from "react-icons/fa";
 
 // Animations
@@ -43,13 +43,13 @@ export const FixedNavSpacer = styled.div`
 const StyledSwitch = styled.label`
   /* Slider pill */
   display: flex;
-  width: 3.2rem;
+  width: 3.5rem;
   font-size: 1.5rem;
   border-radius: 30px;
   transition: var(--transition);
   border: 2px solid;
 
-  /* Hide defualt checkbox */
+  /* Hide default checkbox */
   input[type="checkbox"] {
     height: 0;
     width: 0;
@@ -82,7 +82,7 @@ export function ToggleSwitch() {
           closeExpanded();
         }}
       />
-      <div>{theme === "light" ? <GiSunflower /> : <GiMoon />}</div>
+      <div>{theme === "light" ? <GiStripedSun /> : <GiMoon />}</div>
     </StyledSwitch>
   );
 }
