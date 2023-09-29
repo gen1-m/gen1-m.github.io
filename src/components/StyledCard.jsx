@@ -8,6 +8,12 @@ import GH from "../images/GH.svg";
 import { Card } from "react-bootstrap";
 
 const StyledCardComponent = styled.div`
+  .card-title {
+    color: ${({ theme }) => theme.color};
+  }
+  .card-text {
+    color: ${({ theme }) => theme.color};
+  }
   .card-footer {
     border-top: var(--border);
 

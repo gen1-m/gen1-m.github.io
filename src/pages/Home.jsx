@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   React.useEffect(
     function () {
-      document.title = `UncrownedKing1 | Portfolio`;
+      document.title = `gen1-m | Portfolio`;
     },
   );
 
