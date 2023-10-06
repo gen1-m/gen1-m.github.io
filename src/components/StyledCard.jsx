@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-// Icons
 import { FaGithub } from "react-icons/fa";
-// Media
+import { HiStatusOnline } from "react-icons/hi";
 import GH from "../images/GH.svg";
-// Components
 import { Card } from "react-bootstrap";
 
 const StyledCardComponent = styled.div`
@@ -14,6 +12,7 @@ const StyledCardComponent = styled.div`
   .card-text {
     color: ${({ theme }) => theme.color};
   }
+  
   .card-footer {
     border-top: var(--border);
 
@@ -26,10 +25,16 @@ const StyledCardComponent = styled.div`
         color: var(--primary);
       }
     }
+
+    .divider {
+      border-left: 1px solid;
+      margin: 0 30px;
+      display: inline-block;
+    }
   }
 `;
 
-export default function StyledCard({ theme, image, name, description, url }) {
+export default function StyledCard({ theme, image, name, description, url, homepage }) {
   return (
     <StyledCardComponent>
       <Card bg={theme === "light" ? "white" : "dark"}>
@@ -44,10 +49,24 @@ export default function StyledCard({ theme, image, name, description, url }) {
           <Card.Text>{description}</Card.Text>
         </Card.Body>
         <Card.Footer className="text-center">
-          <Card.Link href={url}>
-            {"View on GitHub "}
-            <FaGithub />
-          </Card.Link>
+          {homepage ? (
+            <div>
+              <Card.Link href={url}>
+                {"Repo "}
+                <FaGithub />
+              </Card.Link>
+              <div className="divider"></div>
+              <Card.Link href={homepage}>
+                {" Live "}
+                <HiStatusOnline />
+              </Card.Link>
+            </div>
+          ) : (
+            <Card.Link href={url}>
+              {"Repo "}
+              <FaGithub />
+            </Card.Link>
+          )}
         </Card.Footer>
       </Card>
     </StyledCardComponent>

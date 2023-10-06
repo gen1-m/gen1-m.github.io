@@ -156,20 +156,21 @@ export const resume = "https://drive.google.com/file/d/1fp3--auR48dz3_nGBwgbexZ8
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["movie-search-horizont", "my-website", "fintech-lib"];
+export const filteredProjects = ["fintech-lib", "movie-search-horizont", "my-website"];
 
-// Replace the default GitHub image for matching repos below (images imported above - lines 13-14)
-export const projectCardImages = [
-  {
-    name: "Movie Search Horizont",
-  },
-  {
-    name: "Portfolio Website",
-  },
-  {
-    name:"IB&CM Fintech Library",
-  },
-];
+// Replace the default GitHub image for matching repos below
+
+// export const projectCardImages = [
+//   {
+//     name: "Movie Search Horizont",
+//   },
+//   {
+//     name: "Portfolio Website",
+//   },
+//   {
+//     name:"IB&CM Fintech Library",
+//   },
+// ];
 
 /* Contact Info
  ************************************************************** 
