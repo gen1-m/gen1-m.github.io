@@ -46,7 +46,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Welcome to my website. I am a new developer called Eugen Mamaj and my alias on Github is 'gen1-m'. " +
+  "Welcome to my website. I am Eugen Mamaj and I am an aspiring developer." +
   "I am fascinated from the world of computers and to deepen my knowledge about them, I am currently pursuing"  +
   " a degree in Computer Science. Below you can see my skills and look through some of my projects." +
   " If you feel like contacting me just complete the form below and I will get back to you as soon as possible.";
@@ -150,7 +150,8 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://drive.google.com/file/d/1fp3--auR48dz3_nGBwgbexZ8YUUUi_7d/view";
+export const resume = "https://drive.google.com/file/d/1zniudqOoanZ_zNsPZZevF65BXL75xq2c/view";
+export const resumeDE = "https://drive.google.com/file/d/1zniudqOoanZ_zNsPZZevF65BXL75xq2c/view";
 
 /* Projects
  ************************************************************** 

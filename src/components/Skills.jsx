@@ -1,7 +1,7 @@
 import { useAppContext } from "../appContext";
 import { Element } from "react-scroll";
 // Data
-import { skillData, resume } from "../data";
+import { skillData, resume, resumeDE } from "../data";
 // Components
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
@@ -34,9 +34,20 @@ export default function Skills() {
               <Button
                 size="lg"
                 variant={theme === "light" ? "outline-dark" : "outline-light"}
-                className="mt-5"
+                className="mt-5 mx-2"
               >
-                Curriculum Vitae (Resume)
+                Resume
+              </Button>
+            </a>
+          )}
+          {resumeDE && (
+            <a href={resumeDE}>
+              <Button
+                size="lg"
+                variant={theme === "light" ? "outline-dark" : "outline-light"}
+                className="mt-5 mx-2"
+              >
+                German CV
               </Button>
             </a>
           )}
