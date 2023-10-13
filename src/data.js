@@ -32,6 +32,7 @@ import HeroDark from "./images/hero-dark.jpg";
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
+
 /* START HERE
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
@@ -151,7 +152,7 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://drive.google.com/file/d/1zniudqOoanZ_zNsPZZevF65BXL75xq2c/view";
-export const resumeDE = "https://drive.google.com/file/d/1zniudqOoanZ_zNsPZZevF65BXL75xq2c/view";
+export const resumeDE = "";
 
 /* Projects
  ************************************************************** 
