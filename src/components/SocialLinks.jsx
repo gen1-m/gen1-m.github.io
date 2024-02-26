@@ -3,7 +3,9 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import styled from "styled-components";
 // Data
-import { Blog } from "../data";
+import { 
+  LinkedIn
+} from "../data";
 // Icons
 import { FaGithub } from "react-icons/fa";
 
@@ -14,7 +16,8 @@ const StyledSocialLinks = styled.div`
 `;
 
 export default function SocialLinks() {
-  const { blog, html_url } = useSelector(selectData);
+  const { html_url } = useSelector(selectData);
+  const linkedinUrl = "https://www.linkedin.com/in/eugen-mamaj/";
 
   return (
     <StyledSocialLinks>
@@ -25,9 +28,9 @@ export default function SocialLinks() {
       >
         <FaGithub />
       </a>
-      {blog && (
-        <a href={blog} aria-label="External link" className="link-icons">
-          {Blog}
+      {linkedinUrl && (
+        <a href={linkedinUrl} aria-label="External link" className="link-icons">
+          {LinkedIn}
         </a>
       )}
     </StyledSocialLinks>

@@ -70,7 +70,7 @@ export default function AllProjects() {
         const tempPageItems = [];
         for (
           let number = 1;
-          number <= Math.ceil(filteredData.length / 6);
+          number <= Math.ceil(filteredData.length / 9);
           number++
         ) {
           tempPageItems.push(
@@ -85,15 +85,15 @@ export default function AllProjects() {
           setPageItems([...tempPageItems]);
         }
         if (activePage === 1) {
-          setFilteredResults(filteredData.slice(0, 6));
+          setFilteredResults(filteredData.slice(0, 9));
         } else {
           setFilteredResults(
-            filteredData.slice((activePage - 1) * 6, (activePage - 1) * 6 + 6)
+            filteredData.slice((activePage - 1) * 9, (activePage - 1) * 9 + 9)
           );
         }
       } else {
         const tempPageItems = [];
-        for (let number = 1; number <= Math.ceil(data.length / 6); number++) {
+        for (let number = 1; number <= Math.ceil(data.length / 9); number++) {
           tempPageItems.push(
             <Pagination.Item
               key={number}
@@ -106,10 +106,10 @@ export default function AllProjects() {
           setPageItems([...tempPageItems]);
         }
         if (activePage === 1) {
-          setFilteredResults(data.slice(0, 6));
+          setFilteredResults(data.slice(0, 9));
         } else {
           setFilteredResults(
-            data.slice((activePage - 1) * 6, (activePage - 1) * 6 + 6)
+            data.slice((activePage - 1) * 9, (activePage - 1) * 9 + 9)
           );
         }
       }

@@ -6,7 +6,8 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
-  FaNode
+  FaNode,
+  FaLinkedin
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -41,6 +42,7 @@ export const githubUsername = "gen1-m";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
+export const LinkedIn = <FaLinkedin />;
 
 /* About Me
  **************************************************************
@@ -147,10 +149,9 @@ export const skillData = [
     skill: <SiAdobecreativecloud className="display-4" />,
     name: "Adobe Creative Cloud",
   },
-
 ];
 
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+// Resume link
 export const resume = "https://drive.google.com/file/d/1zniudqOoanZ_zNsPZZevF65BXL75xq2c/view";
 export const resumeDE = "https://drive.google.com/file/d/14pQTrhw_HSGTRG1VPx1II830p-1wVR0r/view";
 
@@ -158,7 +159,7 @@ export const resumeDE = "https://drive.google.com/file/d/14pQTrhw_HSGTRG1VPx1II8
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["fintech-lib", "movie-search-horizont", "my-website"];
+export const filteredProjects = ["fintech-lib", "movie-search-horizont", "stock-research"];
 
 // Replace the default GitHub image for matching repos below
 

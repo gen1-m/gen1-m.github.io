@@ -2,11 +2,14 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import { Link } from "react-scroll";
 import styled from "styled-components";
+
 // Icons
 import { FaChevronCircleDown } from "react-icons/fa";
+
 // Media
 import Logo from "../images/logo.svg";
 import { Light, Dark } from "../data";
+
 // Components
 import { Col, Container, Row } from "react-bootstrap";
 import { Spin } from "./globalStyledComponents";
