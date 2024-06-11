@@ -29,10 +29,10 @@ import {
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
+
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
-
 
 /* START HERE
  **************************************************************
@@ -152,26 +152,29 @@ export const skillData = [
 ];
 
 // Resume link
-export const resume = "https://drive.google.com/file/d/1zniudqOoanZ_zNsPZZevF65BXL75xq2c/view";
-export const resumeDE = "https://drive.google.com/file/d/14pQTrhw_HSGTRG1VPx1II830p-1wVR0r/view";
+export const resume = "https://drive.google.com/file/d/1G5sDPh5SnBA2ydpWleak1-cO6-CkBFf8/view";
+export const resumeDE = "https://drive.google.com/file/d/1ZcDZDoYPAJ0xPr20RZtb58QXUUZfoqcB/view";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["fintech-lib", "movie-search-horizont", "stock-research"];
+export const filteredProjects = ["movie-search-horizont", "stock-research", "fintech-lib"];
 
 // Replace the default GitHub image for matching repos below
 
 // export const projectCardImages = [
 //   {
-//     name: "Movie Search Horizont",
+//     name: "movie-search-horizont",
+//     image: Horizont,
 //   },
 //   {
-//     name: "Portfolio Website",
+//     name: "stock-research",
+//     image: StockResearch,
 //   },
 //   {
-//     name:"IB&CM Fintech Library",
+//     name:"fintech-lib",
+//     image: FintechLib,
 //   },
 // ];
 
