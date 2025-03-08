@@ -45,7 +45,7 @@ export default function Skills() {
               <Button
                 size="lg"
                 variant={theme === "light" ? "outline-dark" : "outline-light"}
-                className="mt-5 mx-2"
+                className="mt-5 mx-2 "
               >
                 German CV
               </Button>

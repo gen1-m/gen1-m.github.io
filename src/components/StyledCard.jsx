@@ -6,6 +6,9 @@ import GH from "../images/GH.svg";
 import { Card } from "react-bootstrap";
 
 const StyledCardComponent = styled.div`
+  .card-body {
+    padding: 2rem; 
+  }
   .card-title {
     color: ${({ theme }) => theme.color};
   }
@@ -43,6 +46,7 @@ export default function StyledCard({ theme, image, name, description, url, homep
           src={image ? image : GH}
           alt={name}
           className="mx-auto"
+          style={{ width: "70%" }}
         />
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>

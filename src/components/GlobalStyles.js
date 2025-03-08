@@ -7,15 +7,15 @@ Variables
 ===============
 */
 :root {
-  --primary-light: #b0edfd;
+  --primary-light: white;
   /* Primary Color */
-  --primary: #61DBFB;
-  --primary-dark: #316e7e;
-  --border: 1px solid #61DBFB;
+  --primary: #d48030;
+  --primary-dark: #cf7a2a;
+  --border: 0.2rem solid black;
   --transition: all 0.3s linear;
   --nav-height: 61px;
-  --min-footer-height: 11vh;
-  --card-height: 30rem;
+  --min-footer-height: 5rem;
+  --card-height: 40rem;
 }
 
 /*
