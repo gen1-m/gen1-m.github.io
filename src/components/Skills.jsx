@@ -40,17 +40,6 @@ export default function Skills() {
               </Button>
             </a>
           )}
-          {resumeDE && (
-            <a href={resumeDE}>
-              <Button
-                size="lg"
-                variant={theme === "light" ? "outline-dark" : "outline-light"}
-                className="mt-5 mx-2 "
-              >
-                German CV
-              </Button>
-            </a>
-          )}
         </Container>
       </section>
     </Element>

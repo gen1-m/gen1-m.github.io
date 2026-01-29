@@ -50,9 +50,10 @@ export const LinkedIn = <FaLinkedin />;
 // Paragraph text
 export const moreInfo =
   "Welcome to my website. I am Eugen Mamaj and I am an aspiring developer." +
-  "I am fascinated from the world of computers and to deepen my knowledge about them, I am currently pursuing" +
-  " a degree in Computer Science. Below you can see my skills and look through some of my projects." +
-  " If you feel like contacting me just complete the form below and I will get back to you as soon as possible.";
+  " Recently, I have finished" +
+  " a bachelor's degree in Computer Science and I plan to begin my Master's in the University of Bonn soon." + 
+  " Below you can see my skills and look through some of my projects." +
+  " If you feel like contacting me just complete the form below and I will get back to you asap :)";
 
 // Skills
 export const skillData = [
@@ -210,9 +211,7 @@ export const skillData = [
 
 // Resume link
 export const resume =
-  "https://drive.google.com/file/d/1iP1vCKGjr2T8hM6JG1Mv59i9prfEzJW3/view";
-export const resumeDE =
-  "https://drive.google.com/file/d/15Thi7swG3strtNBv3cJ3MJ4to29Ga7GK/view";
+  "https://drive.google.com/file/d/1C3vgMbg-tOglyvK3TbAKvAtjfiDaSoRa/view";
 
 // Projects
 export const filteredProjects = [
