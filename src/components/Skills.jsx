@@ -1,7 +1,7 @@
 import { useAppContext } from "../appContext";
 import { Element } from "react-scroll";
 // Data
-import { skillData, resume, resumeDE } from "../data";
+import { skillData, resume } from "../data";
 // Components
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
